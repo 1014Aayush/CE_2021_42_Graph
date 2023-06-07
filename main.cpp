@@ -40,7 +40,7 @@ int main()
     cout << "Is B and A neighbour: " << graph.neighbour('A', 'B') << endl;
 
     // Print the indegree and degree of vertex 'A'
-    cout << "Indegree of vertex A: " << graph.indegree('A') << endl;
+    cout << "Indegree of vertex A:: " << graph.indegree('A') << endl;
     cout << "Degree of vertex A: " << graph.degree('A') << endl;
 
     // Remove vertex 'B' and print the updated graph information

@@ -258,7 +258,7 @@ int Graph::degree(char vertex)
 
 void Graph::removeVertice(char vertex)
 {
-    // Removing vertex from adjacency list and shifting other vertex
+    // Removing vertex from adjacency list and shifting other verte
     for (int i = 0; i < size; i++)
     {
         if (AdjacencyList[i].name == vertex)
